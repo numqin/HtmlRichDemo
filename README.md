@@ -1,4 +1,4 @@
-#WebView 显示HTML富文本
+# WebView 显示HTML富文本
 
 首先说明下富文本是什么：富文本的定义是一种跨平台的文本处理方式。
 
@@ -7,7 +7,7 @@
 1. 将 Html 文本转成 SpannableString ，通过 TextView 显示。
 2. 利用 Webview 显示 Html
 
-##Html 文本转成 SpannableString 
+## Html 文本转成 SpannableString 
 
 > 这里简单的提一下 Html 文本转成 SpannableString ，这种方式主要是通过识别 html 的标签，然后将内容转成 SpannableString 。
 >
@@ -17,7 +17,13 @@
 
 ## 使用 Webview 显示 Html 文本
 
-> 如果你的 html 文本中使用到了网络上的图片请先把网络请求权限加上
+[github](https://github.com/Mrqinlei/HtmlRichDemo)
+
+**多说无益看效果：**
+
+ ![](https://ws2.sinaimg.cn/large/006tNc79gy1fn5v0dzznvj30ck0qswfb.jpg)
+
+> **如果你的 html 文本中使用到了网络上的图片请先把网络请求权限加上**
 
 - 核心方法
 
